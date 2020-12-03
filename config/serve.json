@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/ProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "9dac50ad-a2f5-4a43-acea-95524336291d",
+          "properties": {
+            "sampleText": ""
+          }
+        }
+      }
+    },
+    "fieldExtCustomizerDemoReact": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/ProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "9dac50ad-a2f5-4a43-acea-95524336291d",
+          "properties": {
+            "sampleText": ""
+          }
+        }
+      }
+    }
+  }
+}
